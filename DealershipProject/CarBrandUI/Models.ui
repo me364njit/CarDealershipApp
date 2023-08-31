@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1038</width>
+    <height>508</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 0, 127);</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>40</y>
+     <width>321</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(85, 170, 255);
+color: rgb(255, 255, 255);
+font: 22pt &quot;Rockwell Condensed&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Select Desired Model</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BMWButton">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>100</y>
+     <width>81</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(85, 170, 255);</string>
+   </property>
+   <property name="text">
+    <string>BMW</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="AudiButton">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>180</y>
+     <width>81</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(85, 170, 255);</string>
+   </property>
+   <property name="text">
+    <string>Audi</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="toyButton">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>100</y>
+     <width>81</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(85, 170, 255);</string>
+   </property>
+   <property name="text">
+    <string>Toyota</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="AcuraButton">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>180</y>
+     <width>81</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(85, 170, 255);</string>
+   </property>
+   <property name="text">
+    <string>Acura</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="LexusButton">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>100</y>
+     <width>81</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(85, 170, 255);</string>
+   </property>
+   <property name="text">
+    <string>Lexus</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="NissanButton">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>180</y>
+     <width>81</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(85, 170, 255);</string>
+   </property>
+   <property name="text">
+    <string>Nissan</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="CadillacButton">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>260</y>
+     <width>81</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(85, 170, 255);</string>
+   </property>
+   <property name="text">
+    <string>Cadillac</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="DodgeButton">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>260</y>
+     <width>81</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(85, 170, 255);</string>
+   </property>
+   <property name="text">
+    <string>Dodge</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="FordButton">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>260</y>
+     <width>81</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(85, 170, 255);</string>
+   </property>
+   <property name="text">
+    <string>Ford</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BenzButton">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>340</y>
+     <width>101</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(85, 170, 255);</string>
+   </property>
+   <property name="text">
+    <string>Mercedes-Benz</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="HondaButton">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>340</y>
+     <width>81</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(85, 170, 255);</string>
+   </property>
+   <property name="text">
+    <string>Honda</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="wagenButton">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>340</y>
+     <width>81</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(85, 170, 255);</string>
+   </property>
+   <property name="text">
+    <string>Volkswagen</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>30</y>
+     <width>531</width>
+     <height>411</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../../Pictures/car.jpg</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="backButton">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>420</y>
+     <width>101</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(85, 170, 255);</string>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

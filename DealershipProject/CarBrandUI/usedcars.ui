@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UsedCars</class>
+ <widget class="QDialog" name="UsedCars">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1429</width>
+    <height>674</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Used Cars</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QTableWidget" name="tableWidget">
+     <property name="rowCount">
+      <number>10</number>
+     </property>
+     <row/>
+     <row/>
+     <row/>
+     <row/>
+     <row/>
+     <row/>
+     <row/>
+     <row/>
+     <row/>
+     <row/>
+     <column>
+      <property name="text">
+       <string>idCar</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Availability</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>New Column</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Make</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Year</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Condtion</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Date on Lot</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Date sold</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string># of Prev Drivers</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string># of Accidents</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Price</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="DataButton">
+     <property name="text">
+      <string>Show Data</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="pushButton">
+     <property name="text">
+      <string>GoBack</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1366</width>
+    <height>675</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_4">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="font">
+      <font>
+       <family>MS Shell Dlg 2</family>
+       <pointsize>38</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(85, 85, 255);
+font: 38pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(255, 85, 127);</string>
+     </property>
+     <property name="text">
+      <string>All Cars in Inventory</string>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::PlainText</enum>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_3"/>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QTableWidget" name="tableWidget">
+       <property name="rowCount">
+        <number>10</number>
+       </property>
+       <property name="columnCount">
+        <number>11</number>
+       </property>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <column>
+        <property name="text">
+         <string>idCar</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Availability</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Make</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Model</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Year</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Condition</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Date on Lot</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Date Sold</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string># of Prev Drivers</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string># of Accidents</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Price</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="ShowData">
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 85, 127);
+background-color: rgb(85, 85, 255);</string>
+       </property>
+       <property name="text">
+        <string>Show Cars</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QPushButton" name="BackButton">
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 85, 127);
+background-color: rgb(85, 85, 255);</string>
+     </property>
+     <property name="text">
+      <string>Go Back</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
